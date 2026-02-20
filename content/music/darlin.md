@@ -1,13 +1,12 @@
 ---
-title: Darlin'
+title: Test CMS Song
 date: 2023-08-30
 type: Single
-coverImage: /media/images/placeholder-album.jpg
-audioFile: ""
+coverImage: /media/4th-haiden-deegan-3.jpg
+audioFile: /media/eagle-sound-effect.mp3
 spotifyUrl: ""
 appleMusicUrl: ""
 youtubeUrl: ""
 featured: true
 ---
-
-The wistful opener from the Poison Ivy EP, examining the challenges of urban sprawl, its impact on farming, and the desire to preserve a simpler way of life.
+Test Desc
