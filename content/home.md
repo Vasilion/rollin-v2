@@ -2,7 +2,7 @@
 title: Home
 heroHeading: Rollin Brummette
 heroSubheading: Americana Singer-Songwriter
-heroImage: /media/4th-haiden-deegan-3.jpg
+heroImage: /media/img_9076.jpg
 heroCtaText: Listen Now
 heroCtaLink: /music
 aboutPreview: Rollin Brummette is an Americana singer-songwriter from Grand
