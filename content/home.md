@@ -2,7 +2,7 @@
 title: Home
 heroHeading: Rollin Brummette
 heroSubheading: Americana Singer-Songwriter
-heroImage: ""
+heroImage: /media/whip.png
 heroCtaText: Listen Now
 heroCtaLink: /music
 aboutPreview: Rollin Brummette is an Americana singer-songwriter from Grand
