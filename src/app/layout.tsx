@@ -25,14 +25,34 @@ export const metadata: Metadata = {
   },
   description:
     "Official website of Rollin Brummette - Americana singer-songwriter from Michigan. Music, shows, videos, and more.",
-  keywords: ["Rollin Brummette", "country music", "americana", "singer-songwriter", "Michigan", "Nashville"],
+  keywords: [
+    "Rollin Brummette",
+    "country music",
+    "americana",
+    "singer-songwriter",
+    "Michigan",
+    "Nashville",
+  ],
+  metadataBase: new URL("https://www.rollinbrummette.com"),
+  manifest: "/site.webmanifest",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://www.rollinbrummette.com",
     siteName: "Rollin Brummette",
     title: "Rollin Brummette | Americana Singer-Songwriter",
-    description: "Official website of Rollin Brummette - Americana singer-songwriter from Michigan.",
+    description:
+      "Official website of Rollin Brummette - Americana singer-songwriter from Michigan.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rollin Brummette | Americana Singer-Songwriter",
+    description:
+      "Official website of Rollin Brummette - Americana singer-songwriter from Michigan.",
+  },
+  other: {
+    "msapplication-TileColor": "#0D0D0D",
+    "msapplication-config": "/browserconfig.xml",
   },
 };
 
