@@ -2,8 +2,8 @@ backend:
   name: github
   repo: Vasilion/rollin-v2
   branch: master
-  auth_type: pkce
-  app_id: Ov23li9nwaqzn0oqIgE2
+  base_url: https://www.rollinbrummette.com
+  auth_endpoint: api/auth
 
 media_folder: public/media
 public_folder: /media
