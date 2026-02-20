@@ -1,0 +1,378 @@
+backend:
+  name: github
+  repo: Vasilion/rollin-v2
+  branch: master
+  base_url: https://decap-oauth.netlify.app
+
+media_folder: public/media
+public_folder: /media
+
+collections:
+  - name: settings
+    label: Site Settings
+    files:
+      - name: general
+        label: General Settings
+        file: content/settings.json
+        fields:
+          - { name: siteName, label: Site Name, widget: string }
+          - { name: siteTagline, label: Tagline, widget: string }
+          - { name: siteDescription, label: Site Description, widget: text }
+          - { name: contactEmail, label: Contact Email, widget: string }
+          - { name: contactPhone, label: Contact Phone, widget: string }
+          - { name: location, label: Location, widget: string }
+          - name: socialLinks
+            label: Social Links
+            widget: object
+            fields:
+              - {
+                  name: tiktok,
+                  label: TikTok URL,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  name: instagram,
+                  label: Instagram URL,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  name: facebook,
+                  label: Facebook URL,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  name: youtube,
+                  label: YouTube URL,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  name: spotify,
+                  label: Spotify URL,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  name: appleMusic,
+                  label: Apple Music URL,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  name: twitter,
+                  label: Twitter/X URL,
+                  widget: string,
+                  required: false,
+                }
+          - name: footerLinks
+            label: Footer Links
+            widget: list
+            fields:
+              - { name: label, label: Label, widget: string }
+              - { name: href, label: URL, widget: string }
+          - {
+              name: mailchimpFormAction,
+              label: Mailchimp Form Action URL,
+              widget: string,
+              required: false,
+            }
+
+  - name: home
+    label: Home Page
+    files:
+      - name: home
+        label: Home Page
+        file: content/home.md
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: heroHeading, label: Hero Heading, widget: string }
+          - { name: heroSubheading, label: Hero Subheading, widget: string }
+          - {
+              name: heroImage,
+              label: Hero Background Image,
+              widget: image,
+              required: false,
+            }
+          - {
+              name: heroCtaText,
+              label: Hero CTA Text,
+              widget: string,
+              default: "Listen Now",
+            }
+          - {
+              name: heroCtaLink,
+              label: Hero CTA Link,
+              widget: string,
+              default: "/music",
+            }
+          - { name: aboutPreview, label: About Preview Text, widget: text }
+          - {
+              name: aboutImage,
+              label: About Preview Image,
+              widget: image,
+              required: false,
+            }
+          - { name: body, label: Body, widget: markdown, required: false }
+
+  - name: about
+    label: About Page
+    files:
+      - name: about
+        label: About Page
+        file: content/about.md
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: subtitle, label: Subtitle, widget: string, required: false }
+          - {
+              name: heroImage,
+              label: Hero Image,
+              widget: image,
+              required: false,
+            }
+          - {
+              name: profileImage,
+              label: Profile Image,
+              widget: image,
+              required: false,
+            }
+          - name: timeline
+            label: Timeline Events
+            widget: list
+            required: false
+            fields:
+              - { name: year, label: Year, widget: string }
+              - { name: title, label: Title, widget: string }
+              - { name: description, label: Description, widget: text }
+          - { name: body, label: Bio, widget: markdown }
+
+  - name: music
+    label: Music
+    folder: content/music
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Release Date, widget: datetime }
+      - {
+          name: type,
+          label: Type,
+          widget: select,
+          options: ["Single", "EP", "Album"],
+        }
+      - { name: coverImage, label: Cover Art, widget: image }
+      - { name: audioFile, label: Audio File, widget: file, required: false }
+      - {
+          name: spotifyUrl,
+          label: Spotify URL,
+          widget: string,
+          required: false,
+        }
+      - {
+          name: appleMusicUrl,
+          label: Apple Music URL,
+          widget: string,
+          required: false,
+        }
+      - {
+          name: youtubeUrl,
+          label: YouTube URL,
+          widget: string,
+          required: false,
+        }
+      - {
+          name: featured,
+          label: Featured on Homepage,
+          widget: boolean,
+          default: false,
+        }
+      - {
+          name: body,
+          label: Description / Lyrics,
+          widget: markdown,
+          required: false,
+        }
+
+  - name: videos
+    label: Videos
+    folder: content/videos
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Date, widget: datetime }
+      - { name: youtubeId, label: YouTube Video ID, widget: string }
+      - {
+          name: category,
+          label: Category,
+          widget: select,
+          options:
+            ["Music Video", "Podcast", "Live Performance", "Behind the Scenes"],
+        }
+      - {
+          name: thumbnail,
+          label: Custom Thumbnail,
+          widget: image,
+          required: false,
+        }
+      - { name: featured, label: Featured, widget: boolean, default: false }
+      - { name: body, label: Description, widget: markdown, required: false }
+
+  - name: shows
+    label: Shows
+    folder: content/shows
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { name: title, label: Event Name, widget: string }
+      - { name: date, label: Date & Time, widget: datetime }
+      - { name: venue, label: Venue, widget: string }
+      - { name: city, label: City, widget: string }
+      - { name: state, label: State, widget: string }
+      - { name: ticketUrl, label: Ticket URL, widget: string, required: false }
+      - {
+          name: ticketPrice,
+          label: Ticket Price,
+          widget: string,
+          required: false,
+        }
+      - { name: image, label: Event Image, widget: image, required: false }
+      - { name: body, label: Details, widget: markdown, required: false }
+
+  - name: blog
+    label: Blog
+    folder: content/blog
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Date, widget: datetime }
+      - {
+          name: featuredImage,
+          label: Featured Image,
+          widget: image,
+          required: false,
+        }
+      - { name: excerpt, label: Excerpt, widget: text }
+      - { name: tags, label: Tags, widget: list, required: false }
+      - { name: body, label: Body, widget: markdown }
+
+  - name: gallery
+    label: Gallery
+    folder: content/gallery
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Date, widget: datetime }
+      - {
+          name: category,
+          label: Category,
+          widget: select,
+          options:
+            [
+              "Live Shows",
+              "Behind the Scenes",
+              "Press",
+              "Personal",
+              "Promotional",
+            ],
+        }
+      - name: images
+        label: Images
+        widget: list
+        fields:
+          - { name: image, label: Image, widget: image }
+          - { name: caption, label: Caption, widget: string, required: false }
+
+  - name: merch
+    label: Merch
+    folder: content/merch
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: title, label: Product Name, widget: string }
+      - { name: price, label: Price, widget: string }
+      - { name: image, label: Product Image, widget: image }
+      - { name: purchaseUrl, label: Purchase URL, widget: string }
+      - { name: soldOut, label: Sold Out, widget: boolean, default: false }
+      - { name: featured, label: Featured, widget: boolean, default: false }
+      - { name: body, label: Description, widget: markdown, required: false }
+
+  - name: epk
+    label: EPK (Press Kit)
+    files:
+      - name: epk
+        label: Electronic Press Kit
+        file: content/epk.md
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: subtitle, label: Subtitle, widget: string, required: false }
+          - { name: shortBio, label: Short Bio, widget: text }
+          - { name: longBio, label: Long Bio, widget: markdown }
+          - {
+              name: profileImage,
+              label: Profile Image,
+              widget: image,
+              required: false,
+            }
+          - name: pressPhotos
+            label: Press Photos
+            widget: list
+            fields:
+              - { name: image, label: Image, widget: image }
+              - {
+                  name: caption,
+                  label: Caption,
+                  widget: string,
+                  required: false,
+                }
+          - name: pressQuotes
+            label: Press Quotes
+            widget: list
+            required: false
+            fields:
+              - { name: quote, label: Quote, widget: text }
+              - { name: source, label: Source, widget: string }
+              - {
+                  name: url,
+                  label: Source URL,
+                  widget: string,
+                  required: false,
+                }
+          - {
+              name: technicalRider,
+              label: Technical Rider,
+              widget: markdown,
+              required: false,
+            }
+          - {
+              name: body,
+              label: Additional Info,
+              widget: markdown,
+              required: false,
+            }
+
+  - name: contact
+    label: Contact Page
+    files:
+      - name: contact
+        label: Contact Page
+        file: content/contact.md
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: subtitle, label: Subtitle, widget: string, required: false }
+          - {
+              name: bookingInfo,
+              label: Booking Information,
+              widget: markdown,
+              required: false,
+            }
+          - {
+              name: body,
+              label: Additional Content,
+              widget: markdown,
+              required: false,
+            }

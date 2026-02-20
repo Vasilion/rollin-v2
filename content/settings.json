@@ -1,0 +1,30 @@
+{
+  "siteName": "Rollin Brummette",
+  "siteTagline": "Americana Singer-Songwriter",
+  "siteDescription": "Official website of Rollin Brummette - Americana singer-songwriter from Michigan. Music, shows, videos, and more.",
+  "contactEmail": "rollinbrummette@gmail.com",
+  "contactPhone": "(616) 236-3278",
+  "location": "Lansing, MI",
+  "socialLinks": {
+    "tiktok": "https://www.tiktok.com/@rollinbrummette",
+    "instagram": "https://www.instagram.com/rollinbrummette",
+    "facebook": "https://www.facebook.com/rollinbrummette",
+    "youtube": "https://www.youtube.com/@rollinbrummette",
+    "spotify": "https://open.spotify.com/artist/rollinbrummette",
+    "appleMusic": "https://music.apple.com/artist/rollin-brummette",
+    "twitter": ""
+  },
+  "footerLinks": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about" },
+    { "label": "Music", "href": "/music" },
+    { "label": "Videos", "href": "/videos" },
+    { "label": "Shows", "href": "/shows" },
+    { "label": "Blog", "href": "/blog" },
+    { "label": "Gallery", "href": "/gallery" },
+    { "label": "Merch", "href": "/merch" },
+    { "label": "EPK", "href": "/epk" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "mailchimpFormAction": ""
+}
