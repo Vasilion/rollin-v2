@@ -6,8 +6,8 @@ frontend:
         - npm ci
     build:
       commands:
-        - env | grep -i next || true
         - npm run build
+        - rm -rf .next
   artifacts:
     baseDirectory: out
     files:
