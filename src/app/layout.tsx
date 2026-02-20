@@ -33,6 +33,8 @@ export const metadata: Metadata = {
     "Michigan",
     "Nashville",
   ],
+  authors: [{ name: "Unyx", url: "https://unyxwebsolutions.com" }],
+  creator: "Unyx",
   metadataBase: new URL("https://www.rollinbrummette.com"),
   manifest: "/site.webmanifest",
   openGraph: {

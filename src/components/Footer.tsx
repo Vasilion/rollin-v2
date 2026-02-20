@@ -111,7 +111,8 @@ export default function Footer() {
 
         <div className="py-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-smoke/30 text-xs">
-            &copy; {new Date().getFullYear()} Rollin Brummette. All rights reserved.
+            &copy; {new Date().getFullYear()} Rollin Brummette. All rights reserved. Built by{" "}
+            <a href="https://unyxwebsolutions.com" target="_blank" rel="noopener noreferrer" className="hover:text-smoke/50 transition-colors">Unyx</a>
           </p>
           <div className="flex items-center gap-5">
             <Link href="/contact" className="text-smoke/30 hover:text-smoke/50 text-xs transition-colors">
