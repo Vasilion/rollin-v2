@@ -5,11 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex" />
   <title>Rollin Brummette - Content Manager</title>
-  <style>
-    body { margin: 0; background: #1a1a1a; }
-  </style>
+  <style>body { margin: 0; background: #1a1a1a; }</style>
+  <script>window.CMS_MANUAL_INIT = true;</script>
+  <script src="https://unpkg.com/decap-cms@^3.9.0/dist/decap-cms.js"></script>
 </head>
 <body>
-  <script src="https://unpkg.com/decap-cms@^3.9.0/dist/decap-cms.js"></script>
+<script>
+  const { init, registerPreviewStyle } = window.CMS;
+  init({
+    config: {
+      backend: {
+        name: 'github',
+        repo: 'Vasilion/rollin-v2',
+        branch: 'master',
+        auth_type: 'pkce',
+        app_id: 'Ov23li9nwaqzn0oqIgE2',
+      },
+      media_folder: 'public/media',
+      public_folder: '/media',
+      load_config_file: true,
+    },
+  });
+</script>
 </body>
 </html>
