@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "cp next.config.build.ts next.config.ts 2>/dev/null || copy next.config.build.ts next.config.ts 2>nul || true",
     "dev": "next dev",
     "prebuild": "node scripts/generate-sitemap.mjs",
     "build": "next build",

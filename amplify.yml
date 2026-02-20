@@ -3,11 +3,11 @@ frontend:
   phases:
     preBuild:
       commands:
+        - cp next.config.build.ts next.config.ts
         - npm ci
     build:
       commands:
         - npm run build
-        - rm -rf .next
   artifacts:
     baseDirectory: out
     files:
