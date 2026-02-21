@@ -2,7 +2,7 @@
 title: Runnin Redlights
 subtitle: Meet the musicians behind the music
 heroImage: ""
-groupPhoto: /media/download.jpg
+groupPhoto: /media/img_2767-1-.jpg
 introText: "Runnin Redlights a talented group of musicians who bring depth,
   energy, and authenticity to every live performance. Together, they create the
   signature country rock sound that defined the 1970s. Have no fear, they are
