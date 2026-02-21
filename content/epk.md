@@ -13,7 +13,7 @@ longBio: >-
 
 
   By 2023, he had released three singles and relocated to Nashville, where he recorded his debut EP 'Poison Ivy' at Troubadour Recording Studio in Lansing. The six-track collection explores themes of change, growth, and relationships with a sound reminiscent of Tyler Childers and John Denver.
-profileImage: ""
+profileImage: /media/ceremony-musician.jpg
 pressPhotos: []
 pressQuotes:
   - quote: Brummette's perceptive lyrics explore change, growth, and relationships
