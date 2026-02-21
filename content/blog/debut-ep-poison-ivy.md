@@ -1,8 +1,10 @@
 ---
-title: "Debut EP 'Poison Ivy' Out Now"
-date: 2023-08-30
-featuredImage: ""
-excerpt: "After months of recording at Troubadour Recording Studio, my debut EP is finally here. Six tracks of country and folk-rock exploring change, growth, and life on the farm."
+title: Debut EP 'Poison Ivy' Out Now
+date: 2026-02-21T09:44:00.000-06:00
+featuredImage: /media/poison-ivy_cover_extended-edge_53851476198_o.jpg
+excerpt: After months of recording at Troubadour Recording Studio, my debut EP
+  is finally here. Six tracks of country and folk-rock exploring change, growth,
+  and life on the farm.
 tags:
   - Music
   - EP Release
