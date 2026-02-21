@@ -12,6 +12,8 @@ const quickLinks = [
 
 const moreLinks = [
   { label: "Videos", href: "/videos" },
+  { label: "Weddings", href: "/weddings" },
+  { label: "Band", href: "/band" },
   { label: "Blog", href: "/blog" },
   { label: "Gallery", href: "/gallery" },
   { label: "Merch", href: "/merch" },
