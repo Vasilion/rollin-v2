@@ -9,6 +9,6 @@ aboutPreview: Rollin Brummette is an Americana singer-songwriter from Grand
   Ledge, Michigan. With a sound reminiscent of Tyler Childers and John Denver,
   his music blends country and folk-rock with deep, authentic storytelling about
   life, love, and the land.
-aboutImage: ""
+aboutImage: /media/img_1145-1-1-.jpg
 ---
 test
