@@ -1,30 +1,60 @@
 {
-  "siteName": "Rollin Brummette",
   "siteTagline": "Americana Singer-Songwriter",
-  "siteDescription": "Official website of Rollin Brummette - Americana singer-songwriter from Michigan. Music, shows, videos, and more.",
-  "contactEmail": "rollinbrummette@gmail.com",
-  "contactPhone": "(616) 236-3278",
-  "location": "Lansing, MI",
+  "mailchimpFormAction": "",
   "socialLinks": {
-    "tiktok": "https://www.tiktok.com/@rollinbrummette",
-    "instagram": "https://www.instagram.com/rollinbrummette",
-    "facebook": "https://www.facebook.com/rollinbrummette",
+    "tiktok": "",
+    "instagram": "https://www.instagram.com/rollinbrummette/?hl=en",
+    "facebook": "https://www.facebook.com/rollinbrummettemusic/",
     "youtube": "https://www.youtube.com/@rollinbrummette",
-    "spotify": "https://open.spotify.com/artist/rollinbrummette",
-    "appleMusic": "https://music.apple.com/artist/rollin-brummette",
+    "spotify": "https://open.spotify.com/artist/4kPbPSLrmbIW0xXX5ILHLr?si=fyWzigzbQPCEhqGcvQcY8w",
+    "appleMusic": "https://music.apple.com/us/artist/rollin-brummette/1613437168",
     "twitter": ""
   },
+  "contactPhone": "(616) 236-3278",
+  "siteName": "Rollin Brummette",
+  "siteDescription": "Official website of Rollin Brummette - Americana singer-songwriter from Michigan. Music, shows, videos, and more.",
+  "location": "Lansing, MI",
+  "contactEmail": "rollinbrummette@gmail.com",
   "footerLinks": [
-    { "label": "Home", "href": "/" },
-    { "label": "About", "href": "/about" },
-    { "label": "Music", "href": "/music" },
-    { "label": "Videos", "href": "/videos" },
-    { "label": "Shows", "href": "/shows" },
-    { "label": "Blog", "href": "/blog" },
-    { "label": "Gallery", "href": "/gallery" },
-    { "label": "Merch", "href": "/merch" },
-    { "label": "EPK", "href": "/epk" },
-    { "label": "Contact", "href": "/contact" }
-  ],
-  "mailchimpFormAction": ""
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Music",
+      "href": "/music"
+    },
+    {
+      "label": "Videos",
+      "href": "/videos"
+    },
+    {
+      "label": "Shows",
+      "href": "/shows"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Gallery",
+      "href": "/gallery"
+    },
+    {
+      "label": "Merch",
+      "href": "/merch"
+    },
+    {
+      "label": "EPK",
+      "href": "/epk"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ]
 }
