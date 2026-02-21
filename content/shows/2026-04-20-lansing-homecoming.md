@@ -1,12 +1,11 @@
 ---
-title: Lansing Homecoming Show
-date: 2026-04-20T19:00:00
-venue: Mac's Bar
-city: Lansing
+title: ITW Drawform Summer Picnic (Private Event)
+date: 2026-06-27T14:00:00.000-05:00
+venue: ITW Drawform
+city: Zeeland
 state: MI
 ticketUrl: ""
-ticketPrice: "$10"
+ticketPrice: "0"
 image: ""
 ---
-
-Rollin returns to his Michigan roots for a special homecoming performance.
+Runnin Redlights is playing a private event at ITW drawform!
