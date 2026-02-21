@@ -16,14 +16,14 @@ members:
     image: /media/ceremony-musician.jpg
     bio: Singer-songwriter from Grand Ledge, Michigan. The voice and storytelling
       behind every song.
-  - name: Nicholas Roys
+  - name: "Nicholas Roys "
     role: Lead & Rythym Guitar
-    bio: "Nick Roys has been playing guitar for a few years now, which is really
-      something to say, because in a short amount of time he has become an
-      absolute Demon on the Telecaster. Truly, he is the human/guitar swiss army
-      knife, being able to make soft tunes come alive when he plays the solo for
-      Runnin Redlights cover of Peaceful Easy feeling, to playing a the deep
-      metal sound of Rainbow in the Dark by DIO. "
+    bio: "Nick Roys (Roys) has been playing guitar for a few years now, which is
+      really something to say, because in a short amount of time he has become
+      an absolute Demon on the Telecaster. Truly, he is the human/guitar swiss
+      army knife, being able to make soft tunes come alive when he plays the
+      solo for Runnin Redlights cover of Peaceful Easy feeling, to playing a the
+      deep metal sound of Rainbow in the Dark by DIO. "
 ---
 
 The band brings a dynamic range to the live show — from stripped-down acoustic sets to full-energy performances. Each member contributes their own musical background, creating a sound that's rooted in country and Americana but draws from folk, rock, and blues.
