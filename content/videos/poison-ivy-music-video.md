@@ -1,7 +1,7 @@
 ---
 title: Poison Ivy - Official Music Video
 date: 2023-09-15
-youtubeId: https://youtu.be/VjgmBNN9_xY?si=ZJB_gTIs6eLQnba1
+youtubeId: VjgmBNN9_xY
 category: Music Video
 thumbnail: ""
 featured: true
