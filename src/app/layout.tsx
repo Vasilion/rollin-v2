@@ -37,7 +37,11 @@ export const metadata: Metadata = {
   creator: "Unyx",
   metadataBase: new URL("https://www.rollinbrummette.com"),
   icons: {
-    icon: [{ url: "/icon", sizes: "48x48", type: "image/png" }],
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icon", sizes: "48x48", type: "image/png" },
+    ],
+    shortcut: [{ url: "/favicon.svg" }],
     apple: [{ url: "/apple-icon", sizes: "180x180", type: "image/png" }],
   },
   openGraph: {
