@@ -43,14 +43,14 @@ export default async function WeddingsPage() {
 
       <section className="py-24 sm:py-32 bg-night">
         <div className="max-w-5xl mx-auto px-5 sm:px-8">
-          {introText && (
+          {introText ? (
             <div className="max-w-3xl mx-auto text-center mb-20">
               <Heart size={28} className="text-amber/40 mx-auto mb-6" />
               <p className="text-lg sm:text-xl text-smoke/70 leading-relaxed">
                 {introText as string}
               </p>
             </div>
-          )}
+          ) : null}
 
           {(packages as Package[])?.length > 0 && (
             <div className="mb-24">
@@ -78,14 +78,14 @@ export default async function WeddingsPage() {
             </div>
           )}
 
-          {weddings.html && (
+          {weddings.html ? (
             <div className="max-w-3xl mx-auto mb-24">
               <div
                 className="prose"
                 dangerouslySetInnerHTML={{ __html: weddings.html }}
               />
             </div>
-          )}
+          ) : null}
 
           {(gallery as GalleryItem[])?.length > 0 && (
             <div className="mb-24">

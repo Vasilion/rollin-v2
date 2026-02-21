@@ -31,15 +31,15 @@ export default async function BandPage() {
 
       <section className="py-24 sm:py-32 bg-night">
         <div className="max-w-5xl mx-auto px-5 sm:px-8">
-          {introText && (
+          {introText ? (
             <div className="max-w-3xl mx-auto text-center mb-20">
               <p className="text-lg sm:text-xl text-smoke/70 leading-relaxed">
                 {introText as string}
               </p>
             </div>
-          )}
+          ) : null}
 
-          {groupPhoto && (
+          {groupPhoto ? (
             <div className="mb-20 rounded-lg overflow-hidden">
               <img
                 src={groupPhoto as string}
@@ -47,7 +47,7 @@ export default async function BandPage() {
                 className="w-full object-cover"
               />
             </div>
-          )}
+          ) : null}
 
           {(members as BandMember[])?.length > 0 && (
             <div className="mb-24">
@@ -90,14 +90,14 @@ export default async function BandPage() {
             </div>
           )}
 
-          {band.html && (
+          {band.html ? (
             <div className="max-w-3xl mx-auto">
               <div
                 className="prose"
                 dangerouslySetInnerHTML={{ __html: band.html }}
               />
             </div>
-          )}
+          ) : null}
         </div>
       </section>
     </>
