@@ -1,12 +1,11 @@
 ---
-title: Nashville Songwriters Night
-date: 2026-03-15T20:00:00
-venue: The Bluebird Cafe
-city: Nashville
-state: TN
+title: Grand Lady Riverboat
+date: 2026-06-26T18:00:00.000-05:00
+venue: Grand Lady Riverboat
+city: Jenison
+state: MI
 ticketUrl: ""
-ticketPrice: "$15"
+ticketPrice: $20
 image: ""
 ---
-
-An intimate evening of original songs at one of Nashville's most iconic venues.
+Join us for an evening on the Grand Lady Riverboat featuring Runnin Redlights (formerly known as Rollin Brummette Band)
