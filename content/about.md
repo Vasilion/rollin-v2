@@ -1,7 +1,7 @@
 ---
 title: About Rollin
 subtitle: The Story So Far
-heroImage: ""
+heroImage: /media/img_5837.jpg
 profileImage: /media/img_9076.jpg
 timeline:
   - year: Growing Up
