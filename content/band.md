@@ -9,7 +9,7 @@ introText: "Runnin Redlights a talented group of musicians who bring depth,
   not glued to one genre. In one show, you can hear anything from the Indigo
   Girls to the heavy metal music of DIO. The band played their first show on the
   Grand Lady Riverboat and are excited to be back June 26th for another round!
-  If you are interested in booking the band, fill out the contact form below. "
+  If you are interested in booking the band, fill out the contact form. "
 members:
   - name: Rollin Brummette
     role: Lead Vocals / Guitar
