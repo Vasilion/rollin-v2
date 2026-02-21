@@ -1,7 +1,7 @@
 ---
 title: Michigan Wedding Musician
 subtitle: Live music for your most memorable moments
-heroImage: ""
+heroImage: /media/img_2768.jpg
 featuredImage: ""
 introText: Make your special day unforgettable with live Americana and country
   music. Rollin Brummette brings heartfelt, authentic performances to weddings,
