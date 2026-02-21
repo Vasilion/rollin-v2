@@ -120,6 +120,11 @@ body {
 .prose-light p { color: var(--color-bark-light); }
 .prose-light ul, .prose-light ol { color: var(--color-bark-light); }
 
+@keyframes menuFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }

@@ -1,18 +1,12 @@
 import { Metadata } from "next";
 import { getSingleContent } from "@/lib/content";
 import HeroSection from "@/components/HeroSection";
-import { Download, ExternalLink, Quote } from "lucide-react";
+import { Download } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "EPK - Electronic Press Kit",
   description: "Rollin Brummette's Electronic Press Kit - bio, photos, music, and press materials.",
 };
-
-interface PressQuote {
-  quote: string;
-  source: string;
-  url?: string;
-}
 
 interface PressPhoto {
   image: string;
@@ -21,7 +15,7 @@ interface PressPhoto {
 
 export default function EPKPage() {
   const epk = getSingleContent("epk");
-  const { title, subtitle, shortBio, longBio, profileImage, pressPhotos, pressQuotes } = epk.frontmatter;
+  const { title, subtitle, shortBio, longBio, profileImage, pressPhotos } = epk.frontmatter;
 
   return (
     <>
@@ -52,30 +46,6 @@ export default function EPKPage() {
               </div>
             </div>
           </div>
-
-          {(pressQuotes as PressQuote[])?.length > 0 && (
-            <div className="mb-24">
-              <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-amber mb-8 block">Press</span>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {(pressQuotes as PressQuote[]).map((pq, i) => (
-                  <div key={i} className="p-6 rounded-lg border border-white/5 bg-night-light">
-                    <Quote size={20} className="text-amber/30 mb-4" />
-                    <p className="text-cream/80 italic leading-relaxed mb-5">
-                      &ldquo;{pq.quote}&rdquo;
-                    </p>
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs font-semibold text-smoke/50">{pq.source}</span>
-                      {pq.url && (
-                        <a href={pq.url} target="_blank" rel="noopener noreferrer" className="text-amber/50 hover:text-amber transition-colors">
-                          <ExternalLink size={12} />
-                        </a>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
 
           {(pressPhotos as PressPhoto[])?.length > 0 && (
             <div className="mb-24">

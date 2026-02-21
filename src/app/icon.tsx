@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const size = { width: 32, height: 32 };
+export const size = { width: 48, height: 48 };
 export const contentType = "image/png";
 
 export default function Icon() {
@@ -14,12 +14,12 @@ export default function Icon() {
           alignItems: "center",
           justifyContent: "center",
           background: "#0D0D0D",
-          borderRadius: "4px",
+          borderRadius: "6px",
         }}
       >
         <div
           style={{
-            fontSize: 18,
+            fontSize: 26,
             fontWeight: 700,
             color: "#C8963E",
             fontFamily: "Georgia, serif",

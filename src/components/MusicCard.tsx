@@ -1,7 +1,7 @@
 "use client";
 
 import { useAudio, Track } from "@/contexts/AudioContext";
-import { Play, Pause } from "lucide-react";
+import { Play, Pause, ExternalLink } from "lucide-react";
 
 interface Props {
   title: string;
@@ -13,14 +13,20 @@ interface Props {
   appleMusicUrl?: string;
 }
 
+function isLocalAudio(file?: string): boolean {
+  if (!file) return false;
+  return file.startsWith("/media/") || file.startsWith("/audio/");
+}
+
 export default function MusicCard({ title, type, date, coverImage, audioFile, spotifyUrl, appleMusicUrl }: Props) {
   const { play, pause, currentTrack, isPlaying } = useAudio();
 
-  const isCurrentTrack = currentTrack?.audioUrl === audioFile;
+  const hasLocalAudio = isLocalAudio(audioFile);
+  const isCurrentTrack = hasLocalAudio && currentTrack?.audioUrl === audioFile;
   const isCurrentlyPlaying = isCurrentTrack && isPlaying;
 
   const handlePlay = () => {
-    if (!audioFile) return;
+    if (!hasLocalAudio || !audioFile) return;
     if (isCurrentlyPlaying) {
       pause();
     } else {
@@ -40,13 +46,24 @@ export default function MusicCard({ title, type, date, coverImage, audioFile, sp
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-night/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-        {audioFile && (
+        {hasLocalAudio && (
           <button
             onClick={handlePlay}
             className="absolute bottom-3 right-3 w-11 h-11 rounded-full bg-amber flex items-center justify-center text-night opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300 hover:bg-amber-light shadow-lg"
           >
             {isCurrentlyPlaying ? <Pause size={18} /> : <Play size={18} className="ml-0.5" />}
           </button>
+        )}
+        {!hasLocalAudio && spotifyUrl && (
+          <a
+            href={spotifyUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute bottom-3 right-3 w-11 h-11 rounded-full bg-[#1DB954] flex items-center justify-center text-white opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300 hover:bg-[#1ed760] shadow-lg"
+            title="Listen on Spotify"
+          >
+            <ExternalLink size={16} />
+          </a>
         )}
         <span className="absolute top-3 left-3 bg-night/70 text-cream/70 text-[10px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded backdrop-blur-sm">
           {type}

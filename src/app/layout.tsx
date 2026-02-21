@@ -36,7 +36,10 @@ export const metadata: Metadata = {
   authors: [{ name: "Unyx", url: "https://unyxwebsolutions.com" }],
   creator: "Unyx",
   metadataBase: new URL("https://www.rollinbrummette.com"),
-  manifest: "/site.webmanifest",
+  icons: {
+    icon: [{ url: "/icon", sizes: "48x48", type: "image/png" }],
+    apple: [{ url: "/apple-icon", sizes: "180x180", type: "image/png" }],
+  },
   openGraph: {
     type: "website",
     locale: "en_US",

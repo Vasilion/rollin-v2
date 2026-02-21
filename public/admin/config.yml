@@ -356,6 +356,116 @@ collections:
               required: false,
             }
 
+  - name: weddings
+    label: Weddings & Events
+    files:
+      - name: weddings
+        label: Weddings & Events
+        file: content/weddings.md
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: subtitle, label: Subtitle, widget: string, required: false }
+          - {
+              name: heroImage,
+              label: Hero Image,
+              widget: image,
+              required: false,
+            }
+          - {
+              name: featuredImage,
+              label: Featured Image,
+              widget: image,
+              required: false,
+            }
+          - { name: introText, label: Introduction Text, widget: text }
+          - name: packages
+            label: Packages
+            widget: list
+            required: false
+            fields:
+              - { name: name, label: Package Name, widget: string }
+              - { name: description, label: Description, widget: text }
+              - { name: price, label: Price, widget: string }
+          - name: gallery
+            label: Gallery
+            widget: list
+            required: false
+            fields:
+              - { name: image, label: Image, widget: image }
+              - {
+                  name: caption,
+                  label: Caption,
+                  widget: string,
+                  required: false,
+                }
+          - name: testimonials
+            label: Testimonials
+            widget: list
+            required: false
+            fields:
+              - { name: quote, label: Quote, widget: text }
+              - { name: name, label: Name, widget: string }
+              - {
+                  name: date,
+                  label: Date,
+                  widget: string,
+                  required: false,
+                }
+          - {
+              name: body,
+              label: Additional Content,
+              widget: markdown,
+              required: false,
+            }
+
+  - name: band
+    label: The Band
+    files:
+      - name: band
+        label: The Band
+        file: content/band.md
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: subtitle, label: Subtitle, widget: string, required: false }
+          - {
+              name: heroImage,
+              label: Hero Image,
+              widget: image,
+              required: false,
+            }
+          - {
+              name: groupPhoto,
+              label: Group Photo,
+              widget: image,
+              required: false,
+            }
+          - { name: introText, label: Introduction Text, widget: text }
+          - name: members
+            label: Band Members
+            widget: list
+            required: false
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: role, label: Role / Instrument, widget: string }
+              - {
+                  name: image,
+                  label: Photo,
+                  widget: image,
+                  required: false,
+                }
+              - {
+                  name: bio,
+                  label: Short Bio,
+                  widget: text,
+                  required: false,
+                }
+          - {
+              name: body,
+              label: Additional Content,
+              widget: markdown,
+              required: false,
+            }
+
   - name: contact
     label: Contact Page
     files:
