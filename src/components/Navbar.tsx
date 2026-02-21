@@ -106,17 +106,25 @@ export default function Navbar() {
           className="xl:hidden fixed inset-0 z-[55] bg-night/[0.98] backdrop-blur-xl"
           onClick={close}
         >
+          <button
+            onClick={close}
+            className="absolute top-5 right-5 z-[60] w-10 h-10 flex items-center justify-center rounded-full border border-white/10 text-cream/70 hover:text-cream hover:border-white/20 transition-colors"
+            aria-label="Close menu"
+          >
+            <X size={20} />
+          </button>
+
           <div
-            className="flex flex-col h-full pt-20 sm:pt-24 pb-8 px-8 overflow-y-auto"
+            className="h-full pt-20 pb-8 px-8 overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="flex flex-col items-center justify-center flex-1 gap-0.5 min-h-0">
+            <div className="flex flex-col items-center gap-1 py-4">
               {navLinks.map((link, i) => (
                 <Link
                   key={link.href}
                   href={link.href}
                   onClick={close}
-                  className={`text-lg sm:text-xl font-heading font-semibold py-2 px-4 rounded-lg transition-colors duration-200 ${
+                  className={`text-lg sm:text-xl font-heading font-semibold py-2.5 px-5 rounded-lg transition-colors duration-200 ${
                     isActive(link.href)
                       ? "text-amber bg-amber/5"
                       : "text-cream/50 hover:text-cream hover:bg-white/5"
