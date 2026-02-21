@@ -2,7 +2,7 @@
 title: Poison Ivy EP
 date: 2023-08-30
 type: EP
-coverImage: /media/images/placeholder-album.jpg
+coverImage: /media/poison-ivy_cover_extended-edge_53851476198_o.jpg
 audioFile: ""
 spotifyUrl: https://open.spotify.com/album/4bjqZwsWz9WkeAY6HTeSb2?si=89T4aY58R9-U68Yn8yKnHw
 appleMusicUrl: ""
