@@ -1,5 +1,5 @@
 ---
-title: ITW Drawform Summer Picnic (Private Event)
+title: Runnin Redlights at ITW Drawform Summer Picnic (Private Event)
 date: 2026-06-27T14:00:00.000-05:00
 venue: ITW Drawform
 city: Zeeland
