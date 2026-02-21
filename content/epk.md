@@ -15,7 +15,12 @@ longBio: >-
   By 2023, he had released three singles and relocated to Nashville, where he recorded his debut EP 'Poison Ivy' at Troubadour Recording Studio in Lansing. The six-track collection explores themes of change, growth, and relationships with a sound reminiscent of Tyler Childers and John Denver.
 
 
-  Media Links: <https://localspins.com/taking-risks-grand-ledges-rollin-brummette-relocates-to-nashville-set-to-release-debut-ep/>
+  Media Links: [Local Spins](https://localspins.com/taking-risks-grand-ledges-rollin-brummette-relocates-to-nashville-set-to-release-debut-ep/)
+
+  [](<>)
+
+
+  [](https://localspins.com/taking-risks-grand-ledges-rollin-brummette-relocates-to-nashville-set-to-release-debut-ep/)
 profileImage: /media/ceremony-musician.jpg
 pressPhotos:
   - image: /media/img_9076.jpg
