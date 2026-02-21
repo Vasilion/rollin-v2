@@ -7,7 +7,7 @@ audioFile: /media/sadie-master-10-2-22.mp3
 spotifyUrl: ""
 appleMusicUrl: ""
 youtubeUrl: ""
-featured: false
+featured: true
 ---
 
 A country ballad with folk-rock instrumentation that tells a story close to Rollin's heart.
