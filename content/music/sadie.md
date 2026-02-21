@@ -4,7 +4,7 @@ date: 2023-03-20
 type: Single
 coverImage: /media/images/placeholder-album.jpg
 audioFile: ""
-spotifyUrl: ""
+spotifyUrl: https://open.spotify.com/track/74wcrzwv4Qj9NZyuDb20hO?si=3577942584b44aa1
 appleMusicUrl: ""
 youtubeUrl: ""
 featured: false
