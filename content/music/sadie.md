@@ -2,7 +2,7 @@
 title: Sadie
 date: 2023-03-20
 type: Single
-coverImage: /media/images/placeholder-album.jpg
+coverImage: /media/sadie-pic.png
 audioFile: ""
 spotifyUrl: https://open.spotify.com/track/74wcrzwv4Qj9NZyuDb20hO?si=3577942584b44aa1
 appleMusicUrl: ""
