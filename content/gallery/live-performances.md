@@ -5,4 +5,5 @@ category: Live Shows
 images:
   - image: /media/poison-ivy_cover_extended-edge_53851476198_o.jpg
     caption: ""
+  - image: /media/ceremony-musician.jpg
 ---
