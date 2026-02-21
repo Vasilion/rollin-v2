@@ -1,10 +1,9 @@
 ---
-title: "Live at Soaring Eagle Casino"
+title: Cowpoke Cover
 date: 2021-07-15
-youtubeId: dQw4w9WgXcQ
+youtubeId: https://youtu.be/7b0GzCs8aRA?si=5XaDNAzKbz5uf0oI
 category: Live Performance
 thumbnail: ""
 featured: false
 ---
-
-Rollin's breakthrough performance opening for ZZ Top, John Fogerty, and George Thorogood.
+Copoke Cover
