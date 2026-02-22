@@ -30,6 +30,12 @@ members:
       section, he is an integral part in keeping the groove of each song. He is
       also really good at following Rollin when he decides to play songs in a
       differen't key or omit certain sections of songs. "
+  - name: David
+    role: Drums
+    bio: "When he's not tuning, working on Pianos, or performing a magic trick,
+      David is keeping the band in time. He has legendary fills and is great at
+      always playing what is needed. He is also great at keeping the band
+      laughing by cracking the most hilarious jokes! "
 ---
 
 The band brings a dynamic range to the live show — from stripped-down acoustic sets to full-energy performances. Each member contributes their own musical background, creating a sound that's rooted in country and Americana but draws from folk, rock, and blues.
