@@ -32,7 +32,7 @@ members:
     role: Bass
     bio: "Bill is the Bass player in Runnin Redlights. As part of the rythym
       section, he is an integral part in keeping the groove of each song. He is
-      also really good at following Rollin when he decides to play songs in a
+      also really good at following along when Rollin decides to play songs in a
       differen't key or omit certain sections of songs. "
   - name: David
     role: Drums
