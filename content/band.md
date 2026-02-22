@@ -28,6 +28,7 @@ members:
       army knife, being able to make soft tunes come alive when he plays the
       solo for Runnin Redlights cover of Peaceful Easy feeling, to playing a the
       deep metal sound of Rainbow in the Dark by DIO. "
+    image: /media/img_9894.jpeg
   - name: Bill
     role: Bass
     bio: "Bill is the Bass player in Runnin Redlights. As part of the rythym
