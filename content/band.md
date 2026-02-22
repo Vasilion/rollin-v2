@@ -41,5 +41,3 @@ members:
       always playing what is needed. He is also great at keeping the band
       laughing by cracking the most hilarious jokes! "
 ---
-
-The band brings a dynamic range to the live show — from stripped-down acoustic sets to full-energy performances. Each member contributes their own musical background, creating a sound that's rooted in country and Americana but draws from folk, rock, and blues.
