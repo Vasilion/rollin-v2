@@ -14,8 +14,12 @@ members:
   - name: Rollin Brummette
     role: Lead Vocals / Guitar
     image: /media/ceremony-musician.jpg
-    bio: Singer-songwriter from Grand Ledge, Michigan. The voice and storytelling
-      behind every song.
+    bio: "Rollin is the voice and rythym guitar behind the songs of Runnin
+      Redlights. Rollin has been singing for 15 years and writing songs for 6
+      years. To take it to the next level, he moved to Nashville where he
+      continued to hone in on his craft. Once he moved back to Michigan, he
+      decided it was time to fulfil his lifelong dream of being in a band.
+      Enter, Runnin Redlights. "
   - name: "Nicholas Roys "
     role: Lead & Rythym Guitar
     bio: "Nick Roys (Roys) has been playing guitar for a few years now, which is
