@@ -29,9 +29,10 @@ timeline:
     description: Currently working on new material including an album of hunting
       songs, drawing from his lifelong passion for deer, elk, and bear hunting.
 ---
-
 Rollin Brummette believes in taking risks. The Americana singer-songwriter and guitarist from Grand Ledge, Michigan turned a life-changing opening set for rock legends into a full-time music career.
 
 His musical style is reminiscent of Tyler Childers and John Denver, but with deeper vocals mixed with country and folk-rock instrumentation. His perceptive lyrics explore change, growth, and relationships against a backdrop of timeless instrumentation.
 
 Inspired by his musician father, Josh Turner, Sam Hunt, and The Indigo Girls, Rollin brings an authentic voice to the Americana genre — one rooted in Michigan farmland and refined in Nashville.
+
+Now back in Michigan, Rollin has taken more of a step back at playing the solo acoustic gigs, to focus on his new band Runnin Redlights.
