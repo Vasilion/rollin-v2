@@ -12,7 +12,7 @@ introText: "Runnin Redlights a talented group of musicians who bring depth,
   If you are interested in booking the band, fill out the contact form. "
 members:
   - name: Rollin Brummette
-    role: Lead Vocals / Guitar
+    role: Lead Vocals and Rythym Guitar
     image: /media/ceremony-musician.jpg
     bio: "Rollin is the voice and rythym guitar behind the songs of Runnin
       Redlights. Rollin has been singing for 15 years and writing songs for 6
@@ -21,7 +21,7 @@ members:
       decided it was time to fulfil his lifelong dream of being in a band.
       Enter, Runnin Redlights. "
   - name: "Nicholas Roys "
-    role: Lead & Rythym Guitar
+    role: Lead Guitar
     bio: "Nick Roys (Roys) has been playing guitar for a few years now, which is
       really something to say, because in a short amount of time he has become
       an absolute Demon on the Telecaster. Truly, he is the human/guitar swiss
