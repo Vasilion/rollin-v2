@@ -38,8 +38,9 @@ members:
     image: /media/bill-.jpg
   - name: David
     role: Drums
-    bio: "When he's not tuning, working on Pianos, or performing a magic trick,
+    bio: "When he's not tuning or working on Pianos, or performing a magic trick,
       David is keeping the band in time. He has legendary fills and is great at
       always playing what is needed. He is also great at keeping the band
       laughing by cracking the most hilarious jokes! "
+    image: /media/david-.jpg
 ---
