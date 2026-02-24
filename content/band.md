@@ -35,6 +35,7 @@ members:
       section, he is an integral part in keeping the groove of each song. He is
       also really good at following along when Rollin decides to play songs in a
       differen't key or omit certain sections of songs. "
+    image: /media/bill-.jpg
   - name: David
     role: Drums
     bio: "When he's not tuning, working on Pianos, or performing a magic trick,
