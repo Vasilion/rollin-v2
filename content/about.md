@@ -1,14 +1,14 @@
 ---
 title: About Rollin
-subtitle: The Story So Far
+subtitle: The Story So Farhttps://www.rollinbrummette.com/media/img_5837.jpg
 heroImage: /media/img_5837.jpg
 profileImage: /media/img_9076.jpg
 timeline:
   - year: Growing Up
     title: Grand Ledge, Michigan
     description: Raised on a 70-acre hobby farm in Grand Ledge, Michigan. Surrounded
-      by nature and inspired by his musician father, Rollin developed a deep
-      love for music and the outdoors.
+      by nature and inspired by watching his Dad play guitar, Rollin developed a
+      deep love for music and the outdoors.
   - year: "2021"
     title: The Breakthrough
     description: Opened for ZZ Top, John Fogerty, and George Thorogood at Mount
@@ -25,14 +25,15 @@ timeline:
       six-track collection exploring themes of change, growth, and
       relationships.
   - year: Present
-    title: New Music & Hunting Songs
-    description: Currently working on new material including an album of hunting
-      songs, drawing from his lifelong passion for deer, elk, and bear hunting.
+    title: Back in the Mitten
+    description: "After a few years of the fast Nashville city life, Rollin is back
+      in Michigan and currently working on his latest music project - Runnin
+      Redlights. "
 ---
 Rollin Brummette believes in taking risks. The Americana singer-songwriter and guitarist from Grand Ledge, Michigan turned a life-changing opening set for rock legends into a full-time music career.
 
 His musical style is reminiscent of Tyler Childers and John Denver, but with deeper vocals mixed with country and folk-rock instrumentation. His perceptive lyrics explore change, growth, and relationships against a backdrop of timeless instrumentation.
 
-Inspired by his musician father, Josh Turner, Sam Hunt, and The Indigo Girls, Rollin brings an authentic voice to the Americana genre — one rooted in Michigan farmland and refined in Nashville.
+Inspired by his musician father, John Denver, and classic rock bands like Rush and Boston, Rollin brings an authentic voice to the Americana genre — one rooted in Michigan farmland and refined in Nashville.
 
-Now back in Michigan, Rollin has taken more of a step back at playing the solo acoustic gigs, to focus on his new band Runnin Redlights.
+Now back in Michigan, Rollin has taken more of a step back at playing the solo acoustic gigs, to focus on his new band [Runnin Redlights](https://www.rollinbrummette.com/band).
