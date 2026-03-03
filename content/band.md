@@ -44,3 +44,4 @@ members:
       laughing by cracking the most hilarious jokes! "
     image: /media/david-.jpg
 ---
+Check out videos of the band [here](https://www.rollinbrummette.com/videos)
