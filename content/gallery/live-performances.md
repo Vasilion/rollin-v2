@@ -8,4 +8,6 @@ images:
   - image: /media/img_0789-copy.jpg
   - image: /media/370030875_7509734925707308_2143977725495889466_n.jpg
   - image: /media/img_2767-1-.jpg
+  - image: /media/d221f0b8-0681-4c96-ae02-ffbd3822ddab.jpg
+    caption: Rollin Playing a writers round in Nashville
 ---
