@@ -49,7 +49,8 @@ export default function MusicCard({ title, type, date, coverImage, audioFile, sp
         {hasLocalAudio && (
           <button
             onClick={handlePlay}
-            className="absolute bottom-3 right-3 w-11 h-11 rounded-full bg-amber flex items-center justify-center text-night opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300 hover:bg-amber-light shadow-lg"
+            className="absolute bottom-3 right-3 w-11 h-11 rounded-full bg-amber flex items-center justify-center text-night opacity-100 translate-y-0 transition-all duration-300 hover:bg-amber-light shadow-lg supports-[hover:hover]:opacity-0 supports-[hover:hover]:group-hover:opacity-100 supports-[hover:hover]:translate-y-2 supports-[hover:hover]:group-hover:translate-y-0"
+            aria-label={isCurrentlyPlaying ? "Pause track" : "Play track"}
           >
             {isCurrentlyPlaying ? <Pause size={18} /> : <Play size={18} className="ml-0.5" />}
           </button>
@@ -59,8 +60,9 @@ export default function MusicCard({ title, type, date, coverImage, audioFile, sp
             href={spotifyUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="absolute bottom-3 right-3 w-11 h-11 rounded-full bg-[#1DB954] flex items-center justify-center text-white opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300 hover:bg-[#1ed760] shadow-lg"
+            className="absolute bottom-3 right-3 w-11 h-11 rounded-full bg-[#1DB954] flex items-center justify-center text-white opacity-100 translate-y-0 transition-all duration-300 hover:bg-[#1ed760] shadow-lg supports-[hover:hover]:opacity-0 supports-[hover:hover]:group-hover:opacity-100 supports-[hover:hover]:translate-y-2 supports-[hover:hover]:group-hover:translate-y-0"
             title="Listen on Spotify"
+            aria-label="Listen on Spotify"
           >
             <ExternalLink size={16} />
           </a>

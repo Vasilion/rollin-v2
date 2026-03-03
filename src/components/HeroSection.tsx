@@ -4,6 +4,7 @@ interface Props {
   heading: string;
   subheading?: string;
   backgroundImage?: string;
+  backgroundPosition?: string;
   ctaText?: string;
   ctaLink?: string;
   compact?: boolean;
@@ -13,6 +14,7 @@ export default function HeroSection({
   heading,
   subheading,
   backgroundImage,
+  backgroundPosition = "center",
   ctaText,
   ctaLink,
   compact = false,
@@ -25,8 +27,8 @@ export default function HeroSection({
     >
       {backgroundImage ? (
         <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${backgroundImage})` }}
+          className="absolute inset-0 bg-cover"
+          style={{ backgroundImage: `url(${backgroundImage})`, backgroundPosition }}
         />
       ) : (
         <div className="absolute inset-0 bg-night" />

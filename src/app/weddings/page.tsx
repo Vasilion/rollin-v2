@@ -38,6 +38,7 @@ export default async function WeddingsPage() {
         heading={title as string}
         subheading={subtitle as string}
         backgroundImage={heroImage as string}
+        backgroundPosition="center 28%"
         compact
       />
 

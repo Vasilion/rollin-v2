@@ -16,7 +16,7 @@ const moreLinks = [
   { label: "Band", href: "/band" },
   { label: "Blog", href: "/blog" },
   { label: "Gallery", href: "/gallery" },
-  { label: "Merch", href: "/merch" },
+  { label: "Merch", href: "https://rollinbrummette.bigcartel.com/" },
   { label: "EPK", href: "/epk" },
 ];
 
@@ -89,12 +89,21 @@ export default function Footer() {
             <ul className="space-y-2.5">
               {moreLinks.map((link) => (
                 <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-smoke/50 hover:text-amber transition-colors duration-200 text-sm"
-                  >
-                    {link.label}
-                  </Link>
+                  {link.href.startsWith("http") ? (
+                    <a
+                      href={link.href}
+                      className="text-smoke/50 hover:text-amber transition-colors duration-200 text-sm"
+                    >
+                      {link.label}
+                    </a>
+                  ) : (
+                    <Link
+                      href={link.href}
+                      className="text-smoke/50 hover:text-amber transition-colors duration-200 text-sm"
+                    >
+                      {link.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
