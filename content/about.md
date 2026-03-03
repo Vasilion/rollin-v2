@@ -1,6 +1,6 @@
 ---
 title: About Rollin
-subtitle: The Story So Farhttps://www.rollinbrummette.com/media/img_5837.jpg
+subtitle: The Story So Far
 heroImage: /media/img_5837.jpg
 profileImage: /media/img_9076.jpg
 timeline:
