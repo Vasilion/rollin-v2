@@ -1,6 +1,6 @@
 ---
 title: Runnin Redlights at The Ranch
-date: 2026-04-18T20:30:00.000-05:00
+date: 2026-05-30T20:30:00.000-05:00
 venue: The Ranch Honky Tonk
 city: Ann Arbor
 state: MI
