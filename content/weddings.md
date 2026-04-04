@@ -1,7 +1,7 @@
 ---
 title: Michigan Wedding Musician
 subtitle: Live music for your most memorable moments
-heroImage: /media/img_2768.jpg
+heroImage: /media/img_0165.jpg
 featuredImage: ""
 introText: Make your special day unforgettable with live Americana and country
   music. Rollin Brummette brings heartfelt, authentic performances to weddings,
@@ -23,7 +23,7 @@ packages:
 gallery: []
 testimonials: []
 ---
-Whether it's an intimate ceremony or a full reception celebration, Rollin brings a personal touch to every performance. With a repertoire spanning classic country, Americana, folk, and modern favorites, every setlist is tailored to your vision.
+It doesn't matter if its a small, intimant ceremony or a large reception, Rollin brings a personal touch to every performance. With a repertoire spanning classic country, Americana, folk, and modern favorites, every setlist is tailored to your vision.
 
 ### What to Expect When You Hire Rollin
 
