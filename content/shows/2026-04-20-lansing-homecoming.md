@@ -6,7 +6,7 @@ venue: ITW Drawform
 city: Zeeland
 state: MI
 ticketUrl: ""
-ticketPrice: "0"
+ticketPrice: ""
 image: ""
 ---
 Runnin Redlights is playing a private event at ITW drawform!
