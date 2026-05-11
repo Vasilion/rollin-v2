@@ -6,7 +6,7 @@ venue: Grand Lady Riverboat
 city: Jenison
 state: MI
 ticketUrl: ""
-ticketPrice: $20
+ticketPrice: $23
 image: ""
 ---
 Join us for an evening on the Grand Lady Riverboat featuring Runnin Redlights (formerly known as Rollin Brummette Band)
