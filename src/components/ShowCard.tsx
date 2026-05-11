@@ -21,6 +21,44 @@ function formatTime(dateStr: string): string {
   return d.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" });
 }
 
+function renderTicketBadge({
+  isPast,
+  ticketUrl,
+  ticketPrice,
+}: {
+  isPast?: boolean;
+  ticketUrl?: string;
+  ticketPrice?: string;
+}) {
+  if (isPast) {
+    return <span className="text-smoke/20 text-xs uppercase tracking-wider">Past</span>;
+  }
+  const url = ticketUrl?.trim();
+  const price = ticketPrice?.trim();
+  if (url) {
+    return (
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 border border-amber/40 text-amber px-4 py-2 rounded-sm text-xs font-semibold uppercase tracking-wider hover:bg-amber hover:text-night transition-all duration-200"
+      >
+        <Ticket size={12} />
+        {price || "Tickets"}
+      </a>
+    );
+  }
+  if (price) {
+    return (
+      <span className="inline-flex items-center gap-2 border border-amber/20 text-amber/80 px-4 py-2 rounded-sm text-xs font-semibold uppercase tracking-wider">
+        <Ticket size={12} />
+        {price}
+      </span>
+    );
+  }
+  return <span className="text-smoke/30 text-xs uppercase tracking-wider">Free</span>;
+}
+
 export default function ShowCard({
   title,
   date,
@@ -71,23 +109,7 @@ export default function ShowCard({
         </div>
       </div>
 
-      <div className="flex-shrink-0">
-        {!isPast && ticketUrl ? (
-          <a
-            href={ticketUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 border border-amber/40 text-amber px-4 py-2 rounded-sm text-xs font-semibold uppercase tracking-wider hover:bg-amber hover:text-night transition-all duration-200"
-          >
-            <Ticket size={12} />
-            {ticketPrice || "Tickets"}
-          </a>
-        ) : isPast ? (
-          <span className="text-smoke/20 text-xs uppercase tracking-wider">Past</span>
-        ) : (
-          <span className="text-smoke/30 text-xs uppercase tracking-wider">Free</span>
-        )}
-      </div>
+      <div className="flex-shrink-0">{renderTicketBadge({ isPast, ticketUrl, ticketPrice })}</div>
     </div>
   );
 }
