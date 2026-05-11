@@ -33,6 +33,7 @@ export default function ShowsPage() {
                     venue={show.frontmatter.venue as string}
                     city={show.frontmatter.city as string}
                     state={show.frontmatter.state as string}
+                    startTime={show.frontmatter.startTime as string}
                     ticketUrl={show.frontmatter.ticketUrl as string}
                     ticketPrice={show.frontmatter.ticketPrice as string}
                   />
@@ -58,6 +59,7 @@ export default function ShowsPage() {
                     venue={show.frontmatter.venue as string}
                     city={show.frontmatter.city as string}
                     state={show.frontmatter.state as string}
+                    startTime={show.frontmatter.startTime as string}
                     isPast
                   />
                 ))}

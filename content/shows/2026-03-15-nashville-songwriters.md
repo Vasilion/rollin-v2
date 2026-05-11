@@ -1,6 +1,7 @@
 ---
 title: Runnin Redlights (formerly Rollin Brummette Band) at the Grand Lady Riverboat
 date: 2026-06-26T18:00:00.000-05:00
+startTime: 6:00 PM
 venue: Grand Lady Riverboat
 city: Jenison
 state: MI

@@ -128,6 +128,7 @@ export default function HomePage() {
                   venue={show.frontmatter.venue as string}
                   city={show.frontmatter.city as string}
                   state={show.frontmatter.state as string}
+                  startTime={show.frontmatter.startTime as string}
                   ticketUrl={show.frontmatter.ticketUrl as string}
                   ticketPrice={show.frontmatter.ticketPrice as string}
                 />

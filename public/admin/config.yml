@@ -229,6 +229,13 @@ collections:
     fields:
       - { name: title, label: Event Name, widget: string }
       - { name: date, label: Date & Time, widget: datetime }
+      - {
+          name: startTime,
+          label: Start Time,
+          widget: string,
+          required: false,
+          hint: "Shown on the site (e.g. 7:00 PM, Doors 6 / Music 7). Leave blank to hide.",
+        }
       - { name: venue, label: Venue, widget: string }
       - { name: city, label: City, widget: string }
       - { name: state, label: State, widget: string }
